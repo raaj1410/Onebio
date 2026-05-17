@@ -28,6 +28,7 @@ dependencies:
   - ncbi-amrfinderplus
   - nanoplot
   - chopper
+  - panaroo
   - pip
   - pip:
       - -e .
