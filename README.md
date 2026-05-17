@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/onebio_logo.png" alt="OneBio AMR Atlas Logo" width="220"/>
+</p>
+
 # OneBio AMR Atlas
 
 A single browser-based and command-line tool for building a BioSample-anchored atlas that connects:
