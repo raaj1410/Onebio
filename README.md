@@ -1,7 +1,3 @@
-<p align="left">
-  <img src="assets/onebio_logo.png" alt="OneBio AMR Atlas Logo" width="220"/>
-</p>
-
 # OneBio AMR Atlas
 
 A single browser-based and command-line tool for building a BioSample-anchored atlas that connects:
@@ -121,6 +117,7 @@ fasterq-dump
 amrfinder
 pigz
 curl
+panaroo
 ```
 
 ---
@@ -347,41 +344,6 @@ python -m onebio_amr_atlas.same_gene_locus_catalog \
   --min-biosamples 2 \
   --min-delta-expr 5
 ```
-
----
-
-## GitHub upload checklist
-
-Recommended files to commit:
-
-```text
-README.md
-LICENSE
-pyproject.toml
-requirements.txt
-environment.yml
-.gitignore
-docs/
-demo/
-src/onebio_amr_atlas/
-tests/
-```
-
-Do not commit:
-
-```text
-cache/
-outputs/
-work/
-FASTQ files
-BAM files
-SRA files
-SQLite atlas files from real runs
-AMRFinder databases
-Panaroo full outputs
-```
-
-Those belong in releases, Zenodo, OSF or ignored local folders, not in GitHub. GitHub is not a landfill, despite how many repos try to prove otherwise.
 
 ---
 
