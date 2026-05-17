@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/onebio_logo.png" alt="OneBio AMR Atlas Logo"/>
+  <img src="assets/onebio_logo.png" alt="OneBio AMR Atlas Logo" width="220"/>
 </p>
 
 # OneBio AMR Atlas
