@@ -1,0 +1,33 @@
+name: onebio-amr-atlas
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.10
+  - pandas>=2.0
+  - requests
+  - tqdm
+  - openpyxl
+  - pyarrow
+  - duckdb
+  - streamlit
+  - plotly
+  - graphviz
+  - fastqc
+  - fastp
+  - bowtie2
+  - minimap2
+  - samtools
+  - subread
+  - multiqc
+  - sra-tools
+  - pigz
+  - curl
+  - gzip
+  - ncbi-amrfinderplus
+  - nanoplot
+  - chopper
+  - pip
+  - pip:
+      - -e .

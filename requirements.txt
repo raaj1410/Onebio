@@ -1,0 +1,9 @@
+pandas>=2.0
+requests>=2.31
+tqdm>=4.66
+openpyxl>=3.1
+pyarrow>=14
+duckdb>=0.10
+streamlit>=1.35
+plotly>=5.20
+graphviz>=0.20

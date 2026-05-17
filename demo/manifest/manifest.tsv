@@ -1,0 +1,2 @@
+biosample_accession	bioproject_accession	taxon_id	strain	genome_id	assembly_accession_best	evidence_tier	rnaseq_run_count	run_list	ena_fastq_ftp	ena_fastq_md5	access_method
+SAMN00000001	PRJNA000001	573	KP001	DEMO_KP_001	GCA_000000001.1	Strong same-BioSample RNA-seq + AST + genome	1	SRR00000001			FASTQ resolver: local -> ENA manifest -> ENA run lookup -> SRA Toolkit

@@ -1,0 +1,2 @@
+locus_tag	amr_gene	drug_class	subclass	element_type	element_subtype	method	identity	coverage	accession
+demo001	blaDEM	beta-lactam	penicillin	AMR	beta-lactamase	demo	100	100	DEMO001

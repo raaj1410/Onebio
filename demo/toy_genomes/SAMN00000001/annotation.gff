@@ -1,0 +1,2 @@
+##gff-version 3
+contig1	Demo	CDS	1	57	.	+	0	ID=cds-demo001;locus_tag=demo001;gene=blaDEM;product=demo beta-lactamase

@@ -1,0 +1,5 @@
+biosample_accession	antibiotic	phenotype
+SAMN00000001	ampicillin	R
+SAMN00000001	ciprofloxacin	R
+SAMN00000001	amikacin	S
+SAMN00000001	cefepime	I

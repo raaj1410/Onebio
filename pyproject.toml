@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onebio-amr-atlas"
+version = "0.2.0"
+description = "BioSample-anchored genome, RNA-seq, AST phenotype and AMR expression atlas builder"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "OneBio AMR Atlas contributors"}]
+license = {text = "MIT"}
+dependencies = [
+  "pandas>=2.0",
+  "requests>=2.31",
+  "tqdm>=4.66",
+  "openpyxl>=3.1",
+  "pyarrow>=14",
+  "duckdb>=0.10",
+  "streamlit>=1.35",
+  "plotly>=5.20",
+]
+
+[project.scripts]
+onebio-atlas = "onebio_amr_atlas.cli:main"
+onebio-ui = "onebio_amr_atlas.cli:ui_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

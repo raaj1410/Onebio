@@ -1,0 +1,14 @@
+{
+  "input_table": "/mnt/data/onebio_amr_atlas_tool/demo/demo_checker_output.csv",
+  "input_rows": 1,
+  "selected_rows": 1,
+  "manifest_rows": 1,
+  "ast_rows": 4,
+  "only_final_hits": true,
+  "only_rnaseq_available": true,
+  "missing_after_filter": {
+    "biosample_accession": 0,
+    "assembly_accession_best": 0,
+    "run_list": 0
+  }
+}
